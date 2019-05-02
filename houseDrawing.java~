@@ -1,0 +1,59 @@
+import java.awt.*;
+import javax.swing.*;
+
+
+
+public class houseDrawing extends JPanel
+{
+	public houseDrawing()
+	{
+         // set background color here
+         setBackground(Color.PINK); 
+	}
+
+	public void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+
+		// use methods from Graphics class to draw on panel
+           g.setColor(Color.RED);
+           g.drawString("Look at my cool designs",200,200); // ("what", start x, start y) red line 
+       
+           g.setColor(Color.YELLOW);
+           g.fillRect(60,60,70,40);
+           g.drawRect(60,60,200,150);//  (start x, start y, width, length)yellow rect 
+         
+           g.setColor(Color.BLUE);
+           g.drawOval(100,20,50,50); // (vertex x, y, width, length)blue circle
+       
+           g.setColor(Color.RED);
+           g.drawLine(0,0,300,300); // (x1,y1,x2,y2)
+           
+           g.setColor(Color.WHITE);
+           g.drawString("TENI'S PLACE",260,200); // ("what", start x, start y)
+         
+           g.drawRect(280,260,40,70);// door 
+           
+          
+           g.setColor(Color.BLACK);
+           int[] xTrail = {200, 300, 400}; // roof 
+           int[] yTrail = {180, 130, 180};
+          g.fillPolygon(xTrail, yTrail, 3);
+        
+           
+          
+	}
+public static void main(String[] args)
+	
+	{
+		// sets up panel (Don't have to know this part)
+
+		JFrame w = new JFrame("Draw Stuff");
+		w.setBounds(0,0,1000,600);//last 2 nums - window size
+		w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		Container c = w.getContentPane();
+		c.add(new houseDrawing());
+		w.setVisible(true);
+	}
+}
+

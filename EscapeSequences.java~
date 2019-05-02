@@ -1,0 +1,16 @@
+/* 
+ * Some escape sequences in Java
+ * \" \t \n \\ 
+ */
+
+public class EscapeSequences
+{ 
+    public static void main(String[] args)
+    {
+        System.out.println("\"Escape Sequences in Java\"");
+        // double quote is \"
+        // tab is \t
+        // new line \n
+        // backslash needs an escape but forward slash doesn't
+    }
+}

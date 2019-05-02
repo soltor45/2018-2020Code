@@ -1,0 +1,17 @@
+public class DustPan
+{
+    public static void main(String[] args) 
+    {
+        
+        System.out.println("\"Don't put your muck in my dustpan,"
+                          "\n my dustpan, my dustpan."
+                          "\n Don't put your muck in my dustpan"
+                          \n My dustpan's full.\"");
+    //    ("\n my dustpan, my dustpan.");
+    //   ("\n Don't put your muck in my dustpan");
+    //     ("\n My dustpan's full.\"");
+        
+        
+    }
+
+}

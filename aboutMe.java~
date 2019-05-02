@@ -1,0 +1,18 @@
+
+/**
+ * Teni Toriola
+ * Jan 10,2019th 
+ */
+public class aboutMe
+{  
+    public static  void main (String[] args)
+    {
+        System.out.print{"Teni Toriola"};
+        
+        
+        
+        
+        
+    }
+    
+}
