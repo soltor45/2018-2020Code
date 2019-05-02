@@ -1,0 +1,27 @@
+  import java.util.Scanner;
+
+public class WhileLoops
+{
+    public static void main (String[] args)
+    {
+        Scanner scan = new Scanner(System.in);
+    System.out.println("\n Here is a Sentinel-controlled while loop; \n");
+        
+        int sum =0;
+        int num;
+        // as soon as a special value is entered the loop stops
+        
+        System.out.println("ENter a number to add to sum(0 to quit:"); // priming loop
+        num = scan.nextInt();
+        
+        while (num != 0)
+        {
+            sum = sum + num;       // same as sum +=num
+          
+        System.out.println("ENter a number to add to sum(0 to quit):");
+        num = scan.nextInt();  //this here is looping
+        }
+        
+        System.out.println("Sum is " + sum);
+    }
+}

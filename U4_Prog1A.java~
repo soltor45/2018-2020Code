@@ -1,0 +1,29 @@
+ import java.util.Scanner;
+
+public class U4_Prog1A
+{
+    public static void main (String[] args)
+    {
+        Scanner scan = new Scanner(System.in); 
+        int num1=0,sum,rats;
+        int tries=0;
+
+      System.out.println("User Enters");
+      num1= scan.nextInt();
+      
+       for (sum =1; tries <=3 && sum>=0;)
+     {
+         System.out.println("User Enters");
+         num1= scan.nextInt();
+         if (num1<0)
+          num1=0;
+         else
+          sum = num1 + sum ;
+         tries ++;
+        
+           
+     }
+   
+     System.out.println("The sum is " + sum );
+}
+}

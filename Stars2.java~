@@ -1,0 +1,56 @@
+import java.util.Scanner;
+public class Stars2
+{ 
+   
+   public static void main (String[] args)
+    {
+       Scanner scan = new Scanner(System.in);
+       int c=0,r=0,num=0;
+       
+        System.out.println("\nTop Half");
+        System.out.println("How many stars do you want(2-10)");
+        num= scan.nextInt();
+        
+        while (num >10 || num < 2)
+        {  System.out.println("How many stars do you want(2-10)");
+           num= scan.nextInt();
+        }
+      num =c; 
+      num = r;
+     
+       for(num=r ;r >=1; r--) //rows,works 
+          { 
+              for (c=num;c >=1; c--)   //columns,doesn't
+              {
+                  System.out.print("* ");  // stay on the same line in inner loop
+               }
+                
+                
+                System.out.println();      // makes new line for new row
+          }
+       
+       
+            
+     int num2=num;  // num = 7 and num2 also 7 
+     
+         for(num2 = 1;num2 >=1; num++) //rows,works // num2 = 1, 2 , num=7 
+          { 
+              for (num2=num;num <=num2; num2++)   //columns,doesn't // 7 
+              {
+                  System.out.print("* ");  // stay on the same line in inner loop
+               }
+                
+                
+                System.out.println();      // makes new line for new row
+          }
+      
+            
+        
+        System.out.println("\n\n");
+        
+        // num = r  num = c 
+     
+    }
+        
+
+}

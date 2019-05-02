@@ -1,0 +1,32 @@
+
+/*
+ * this class shows using loops to make code repeat
+ * for(initialize; condition;increment)
+ * {
+ *     stuff to repeat goes inside brackets
+ *  }
+ */
+import java.util.Scanner;
+public class ThreeForLoops
+{
+    public static void main(String[] args)
+    {
+      Scanner scan = new Scanner(System.in);
+      int count;
+      int num = 3;
+         while(num <=7)
+         {
+             System.out.println(num);
+             num++;
+            }
+            
+            
+          for( num=3;num <=7 ; num++)
+            System.out.println(num);
+            
+            
+            
+            
+            
+        }
+    }

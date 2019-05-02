@@ -1,0 +1,58 @@
+/*
+ * Demonstrating some methods from the String class
+ * 
+ * Strings are objects, not primitive data types like
+ * int, double boolean, and char.
+ * 
+ * The String class comes from the java.lang package
+ * and is imported automatically
+ */
+
+import java.util.Scanner;
+
+public class Letterletterer
+{
+    public static void main(String[] args)
+    {
+        Scanner scan = new Scanner(System.in); 
+        
+        int num=0;
+        String s1;
+        
+        char letter;
+        boolean contin= true;
+        
+        System.out.println("Enter a word or phrase: ");
+        s1= scan.nextLine();
+        
+        System.out.println("Enter the character you want to count");
+        letter= scan.nextLine().charAt(0);
+        
+        while (contin) // while continue is true
+        {
+            
+            num ++;
+        }
+        System.out.println("There are " + num + letter + "'s");
+        
+        
+        
+       // int pos = s1.indexOf('r');
+       // System.out.println("Position of first 'r' is:" + pos);
+
+      //  int len = s1.length();   // length letters spaces and punctuation and charactrer
+      //  System.out.println("Length: " + len);
+   
+        
+       // s5= s1.replace('a', '4');
+       // System.out.println("With replacement: " + s5);
+       
+        
+        // first positioin is position 0, (not for length, just position)
+        // positions also include spaces and punctuation
+       
+        
+
+    }
+}
+    

@@ -1,0 +1,13 @@
+import java.util. Scanner;
+
+public class SpecialParty
+{
+    public static void main (String[] args)
+    { 
+        int age;
+        Scanner scan= new Scanner (System.in);
+        
+        System.out.println("ENter age: ");
+        age = scan.nextInt();
+    }
+}
