@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=r\ g\ b\ darker
+comment0.target=ShiftableColor(int,\ int,\ int,\ boolean)
+comment1.params=
+comment1.target=void\ darken()
+comment2.params=
+comment2.target=void\ lighten()
+comment3.params=
+comment3.target=int\ getShiftableColorRed()
+comment4.params=
+comment4.target=int\ getShiftableColorGreen()
+comment5.params=
+comment5.target=int\ getShiftableColorBlue()
+numComments=6

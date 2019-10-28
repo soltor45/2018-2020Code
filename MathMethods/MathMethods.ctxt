@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=n1\ n2
+comment1.target=int\ add(int,\ int)
+comment2.params=x\ y
+comment2.target=double\ avg(int,\ int)
+comment3.params=totalInches
+comment3.target=void\ printFtInches(int)
+numComments=4
