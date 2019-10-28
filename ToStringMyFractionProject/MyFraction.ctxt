@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=n\ d
+comment0.target=MyFraction(int,\ int)
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ \ \ \ Here's\ an\ example\ of\ overriding\ the\ toString()\r\n\ \ \ \ method\ to\ represent\ a\ fraction\ in\ String\ form\r\n
+numComments=2

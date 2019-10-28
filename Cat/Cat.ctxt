@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cat()
+comment1.params=n\ s\ w
+comment1.target=Cat(java.lang.String,\ boolean,\ double)
+comment10.params=w
+comment10.target=void\ grow(double)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=boolean\ isScary()
+comment4.params=
+comment4.target=double\ getWeight()
+comment5.params=n
+comment5.target=void\ setName(java.lang.String)
+comment6.params=s
+comment6.target=void\ setScary(boolean)
+comment7.params=w
+comment7.target=void\ setWeight(double)
+comment8.params=
+comment8.target=java.lang.String\ sayHello()
+comment9.params=
+comment9.target=boolean\ isHeavy()
+numComments=11
