@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Duck()
+comment1.params=n\ i\ c\ f\ w
+comment1.target=Duck(java.lang.String,\ boolean,\ java.awt.Color,\ boolean,\ double)
+comment2.params=howMuch
+comment2.target=void\ gainWeight(double)
+comment3.params=
+comment3.target=void\ kill()
+comment4.params=
+comment4.target=void\ printInfo()
+numComments=5

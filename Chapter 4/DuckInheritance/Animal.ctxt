@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Animal()
+comment1.params=n\ i\ c
+comment1.target=Animal(java.lang.String,\ boolean,\ java.awt.Color)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=boolean\ getIsAlive()
+comment4.params=
+comment4.target=java.awt.Color\ getClr()
+comment5.params=
+comment5.target=void\ getMuddy()
+comment6.params=
+comment6.target=void\ kill()
+numComments=7

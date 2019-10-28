@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=si
+comment0.target=Square(double)
+comment1.params=disi
+comment1.target=void\ printDiagonal(double)
+numComments=2
